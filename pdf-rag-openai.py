@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 
 # Set OpenAI API key
-OPENAI_API_KEY = ''
+OPENAI_API_KEY = ' '
 OPENAI_ORGANIZATION = ''
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 os.environ["OPENAI_ORGANIZATION"] = OPENAI_ORGANIZATION
