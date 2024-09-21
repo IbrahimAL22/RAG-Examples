@@ -109,7 +109,7 @@ Response:
 prompt_template = PromptTemplate(input_variables=["context", "question"], template=template)
 
 # Example query
-query = "What is the main topic of the document?"
+query = "What is the main topic of the document"
 
 # Retrieve top 5 relevant chunks
 retrieved_chunks = retrieval_qa.retriever.get_relevant_documents(query)[:5]
